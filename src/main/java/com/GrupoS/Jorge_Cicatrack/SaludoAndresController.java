@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SaludoAndresController {
     @GetMapping("/saludo-andres")
     public String saludar() {
-        return "¡Hola desde el ordenador de Andres!";
+        return "¡HOLA DESDE EL ORDENADOR DE ANDRES!";
     }
 }
